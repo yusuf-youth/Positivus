@@ -1,0 +1,115 @@
+.process {
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    list-style: none;
+    counter-reset: custom-counter;
+  }
+
+  &__item {
+    --counterContent: counter(custom-counter);
+
+    counter-increment: custom-counter;
+
+    &:nth-child(-n + 9) {
+      --counterContent: "0" counter(custom-counter);
+    }
+  }
+
+  &__accordion {
+    padding: 40px 60px;
+    background-color: var(--color-gray);
+    border: var(--border);
+    border-radius: var(--border-radius-large);
+    box-shadow: var(--shadow);
+    transition-duration: var(--transition-duration);
+    user-select: none;
+
+    @include mobile {
+      padding: 30px;
+    }
+
+    @include hover {
+      background-color: var(--color-accent);
+    }
+
+    &[open] {
+      background-color: var(--color-accent);
+
+      .process__accordion-indicator::after {
+        rotate: 0deg;
+      }
+    }
+
+    &-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      column-gap: 50px;
+      cursor: pointer;
+
+      @include mobile {
+        column-gap: 30px;
+      }
+    }
+
+    &-title {
+      display: flex;
+      align-items: center;
+      column-gap: 25px;
+
+      @include mobile {
+        @include fluid-text(18, 30);
+
+        column-gap: 33px;
+      }
+
+      &::before {
+        content: var(--counterContent);
+        font-size: 2em;
+
+        @include mobile {
+          margin-top: -3px;
+          font-size: 30px;
+        }
+      }
+    }
+
+    &-body {
+      padding-top: 30px;
+      margin-top: 30px;
+      border-top: var(--border);
+    }
+
+    &-indicator {
+      @include even-element(58px);
+
+      position: relative;
+      background-color: var(--color-gray);
+      border: var(--border);
+      border-radius: 50%;
+
+      @include mobile {
+        width: 30px;
+        flex-shrink: 0;
+      }
+
+      &::before,
+      &::after {
+        @include absolute-center;
+
+        content: "";
+        top: 47%;
+        width: 45%;
+        height: 10%;
+        background-color: var(--color-dark);
+        transition: var(--transition-duration);
+      }
+
+      &::after {
+        rotate: -90deg;
+      }
+    }
+  }
+}

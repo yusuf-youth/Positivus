@@ -1,0 +1,36 @@
+.radio {
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+    transition-duration: var(--transition-duration);
+
+    @include hover {
+        opacity: 0.7;
+    }
+
+    &__input {
+        &:not(:checked) + .radio__emulator::after {
+            opacity: 0;
+        }
+    }
+
+    &__emulator {
+        @include even-element(28px);
+        @include flex-center;
+
+        position: relative;
+        background-color: var(--color-light);
+        border: var(--border);
+        border-radius: 50%;
+
+        &::after {
+            @include even-element(60%);
+            @include absolute-center;
+
+            content: '';
+            background-color: var(--color-accent);
+            border-radius: 50%;
+            transition-duration: var(--transition-duration);
+        }
+    }
+}

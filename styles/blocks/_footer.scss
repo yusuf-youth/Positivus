@@ -1,0 +1,156 @@
+.footer {
+  padding-block: 0;
+
+  @include mobile {
+    padding: 0;
+  }
+
+  &__inner {
+    padding: 50px 60px 55px;
+    color: var(--color-light);
+    background-color: var(--color-dark);
+
+    @include mobile-above {
+      border-radius: var(--border-radius-large) var(--border-radius-large) 0 0;
+    }
+
+    @include mobile {
+      @include column(37px);
+
+      padding: 50px var(--container-padding-x) 30px;
+    }
+  }
+
+  &__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+    margin-bottom: 66px;
+
+    @include tablet {
+      @include column(37px);
+    }
+
+    @include mobile {
+      display: contents;
+    }
+  }
+
+  &__menu {
+    &-list {
+      @include row(40px);
+
+      @include mobile {
+        @include column(15px);
+      }
+    }
+
+    &-link {
+      display: inline-flex;
+      align-items: center;
+      height: 30px;
+      text-decoration: underline;
+    }
+  }
+
+  &__soc1als {
+    @include mobile {
+      order: 1;
+    }
+  }
+
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+
+    @include tablet {
+      @include column(37px);
+    }
+
+    @include mobile-above {
+      margin-bottom: 50px;
+      padding-bottom: 50px;
+      border-bottom: 1px solid var(--color-light);
+    }
+
+    @include mobile {
+      width: 100%;
+    }
+  }
+
+  &__contacts {
+    @include column(27px);
+
+    align-items: start;
+
+    @include tablet {
+      width: 100%;
+      max-width: 500px;
+    }
+
+    @include mobile {
+      align-items: center;
+      row-gap: inherit;
+      text-align: center;
+    }
+
+    &-title {
+      max-width: fit-content;
+      color: var(--color-dark);
+    }
+
+    &-body {
+      font-style: normal;
+
+      p {
+        --paragraphMarginBottom: 20px;
+
+        a {
+          @include hover {
+            color: var(--color-accent);
+          }
+        }
+      }
+    }
+  }
+
+  &__subscribe-form {
+    @include desktop {
+      @include column(22px);
+
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .field,
+    .field__input,
+    .subscribe-form__button {
+      @include desktop {
+        width: 100%;
+      }
+    }
+  }
+
+  &__extra {
+    @include row(40px);
+
+    @include mobile {
+      @include column(15px);
+      
+      order: 2;
+      width: 100%;
+      padding-top: 37px;
+      border-top: 1px solid white;
+    }
+  }
+
+  &__privacy-policy-link {
+    text-decoration: underline;
+
+    @include hover {
+      color: var(--color-accent);
+    }
+  }
+}
