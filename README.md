@@ -16,3 +16,20 @@ The project structured with following folders:
     <b>styles. </b> <i>styles</i> folder contains subfolders such as blocks for independent components, and sections for sections, and other folders for setting up the project.
   </li>
 </ul>
+
+<h3>Features</h3>
+The project has several features: 
+<ul>
+  <li>
+    <b>Global styles. </b>The project has <i>_global.scss</i> for global styles, <i>_normalize.scss</i> for resetting styles, <i>_mixins.scss</i> and <i>_media.scss</i> for comfortable styling and others.
+  </li>
+  <li>
+    <b>Accessibility. </b>The project takes into account accessibility features and screen readers, so it contains useful information for people with low vision.
+  </li>
+  <li>
+    <b>BEM. </b>The project is structured and built according to BEM methodology. 
+  </li>
+  <li>
+    <b>SCSS. </b>The project is written in the SCSS preprocessor and contains useful features such as mixins for comfortable styling.
+  </li>
+</ul>
