@@ -36,4 +36,9 @@ The project has several features:
   <li>
     <b>SEO. </b>The project has only one h1, and the rest of the headings are written according to the heading hierarchy for better SEO.
   </li>
+  </li>
+  <li>
+    <b>Semantics. </b>The project uses articles for cards, dialog for mobile menu, details for spoilers, <code><address></code> for address information, and so on.
+  </li>
+  
 </ul>
