@@ -38,7 +38,7 @@ The project has several features:
   </li>
   </li>
   <li>
-    <b>Semantics. </b>The project uses articles for cards, dialog for mobile menu, details for spoilers, <code><address></code> for address information, and so on.
+    <b>Semantics. </b>The project uses articles for cards, dialog for mobile menu, details for spoilers, <address> for address information, and so on.
   </li>
   
 </ul>
