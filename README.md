@@ -32,4 +32,8 @@ The project has several features:
   <li>
     <b>SCSS. </b>The project is written in the SCSS preprocessor and contains useful features such as mixins for comfortable styling.
   </li>
+  </li>
+  <li>
+    <b>SEO. </b>The project has only one h1, and the rest of the headings are written according to the heading hierarchy for better SEO.
+  </li>
 </ul>
