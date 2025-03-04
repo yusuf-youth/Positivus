@@ -42,4 +42,5 @@ The project has several features:
   </li>
 </ul>
 
+
 To wrap it up, the project is built in latest standards such as BEM and SCSS, its maintainable due to BEM, accessible for screen readers, and written according to semantics for better SEO.  
