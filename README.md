@@ -1,4 +1,4 @@
 Website: https://yusuf-youth.github.io/Positivus/ 
-Template: [https://www.figma.com/design/rYuygYWV3mQRhBIidLdHPT/Positivus-Landing-Page-Design-(Community)-(Copy)?node-id=330-762&t=EPz27KiT88ynDBX5-0](https://www.figma.com/design/rYuygYWV3mQRhBIidLdHPT/Positivus?node-id=25-145&p=f&t=EPz27KiT88ynDBX5-0)
+Template: https://www.figma.com/design/rYuygYWV3mQRhBIidLdHPT/Positivus?node-id=25-145&p=f&t=EPz27KiT88ynDBX5-0
 
 Hi there! This is a repository of one of websites built from Figma template. 
