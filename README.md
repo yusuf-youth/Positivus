@@ -4,6 +4,6 @@ Hi there! This is a repository of one of websites built from Figma template. <a 
 The project structured with following folders: 
 <ul>
   <li>
-    <b>fonts.</b>fonts folder contains fonts that are used in the project.
+    <b>fonts.</b> fonts folder contains fonts that are used in the project.
   </li>
 </ul>
