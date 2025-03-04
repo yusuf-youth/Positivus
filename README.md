@@ -5,7 +5,7 @@
 
 This website is about providing digital marketing agency such as SEO, PPC, social media marketing, and content creation to businesses to grow and succeed online. <a href="https://yusuf-youth.github.io/Positivus/">Website</a>, <a href="https://www.figma.com/design/rYuygYWV3mQRhBIidLdHPT/Positivus?node-id=25-145&p=f&t=EPz27KiT88ynDBX5-0">Template</a>. <br />
 
-<h3>Structure</h3>
+<h2>Structure</h2>
 The project is structured with following folders: 
 <ul>
   <li>
@@ -22,7 +22,7 @@ The project is structured with following folders:
   </li>
 </ul>
 
-<h3>Features</h3>
+<h2>Features</h2>
 The project has several features: 
 <ul>
   <li>
