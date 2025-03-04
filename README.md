@@ -1,3 +1,9 @@
+<style>
+  code {
+    color: red;
+  }
+</style>
+
 <img src="https://www.spinutech.com/Content/cms/images/blog/Benefits-of-a-Digital-Marketing-Agency.jpg" width="500" />
 <br />
 
