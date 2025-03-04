@@ -25,7 +25,7 @@ The project has several features:
   </li>
   
   <li>
-    <b>Accessibility. </b>The project takes into account accessibility features and screen readers, so it contains useful information for people with low vision.
+    <b>Semantics. </b>The project adheres to semantics, so it uses <code>&lt;articles&gt;</code> for cards, <code>&lt;dialog&gt;</code> for mobile menu, <code>&lt;details&gt;</code> for spoilers, <code>&lt;address&gt;</code> for address information, and so on.
   </li>
   
   <li>
@@ -37,12 +37,13 @@ The project has several features:
   </li>
   
   <li>
-    <b>SEO. </b>The project has only one h1, and the rest of the headings are written according to the heading hierarchy for better SEO.
+    <b>Accessibility. </b>The project takes into account accessibility features and screen readers, so it contains useful information for people with low vision.
   </li>
   
   <li>
-    <b>Semantics. </b>The project adheres to semantics, so it uses <code>&lt;articles&gt;</code> for cards, <code>&lt;dialog&gt;</code> for mobile menu, <code>&lt;details&gt;</code> for spoilers, <code>&lt;address&gt;</code> for address information, and so on.
+    <b>SEO. </b>The project has only one h1, and the rest of the headings are written according to the heading hierarchy for better SEO.
   </li>
+  
 </ul>
 <br />
 To wrap it up, the project is built using the latest standards such as BEM and SCSS, its maintainable thanks to BEM, it is accessible to screen readers, and is written semantically for better SEO.
