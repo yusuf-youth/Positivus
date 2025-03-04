@@ -29,7 +29,7 @@ The project has several features:
   </li>
   
   <li>
-    <b>BEM. </b>The project is structured and built according to BEM methodology. 
+    <b>BEM. </b>The project is structured and built according to BEM methodology, so it's easy to maintain. 
   </li>
   
   <li>
