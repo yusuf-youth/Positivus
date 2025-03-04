@@ -21,7 +21,7 @@ The project is structured with following folders:
 The project has several features: 
 <ul>
   <li>
-    <b>Global styles. </b>The project has <i>_global.scss</i> for global styles, <i>_normalize.scss</i> for resetting styles, <i>_mixins.scss</i> and <i>_media.scss</i> for comfortable styling and others.
+    <b>Global styles. </b>The project has <i>_global.scss</i> for global styles, <i>_normalize.scss</i> for resetting defualt styles, <i>_mixins.scss</i> and <i>_media.scss</i> for comfortable styling and others.
   </li>
   <li>
     <b>Accessibility. </b>The project takes into account accessibility features and screen readers, so it contains useful information for people with low vision.
