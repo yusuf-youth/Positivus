@@ -35,6 +35,10 @@ The project has several features:
   <li>
     <b>SCSS. </b>The project is written in the SCSS preprocessor and contains useful features such as mixins for comfortable styling.
   </li>
+
+  <li>
+    <b>Mobile First. </b>The project in some places is stylized using mobile first approach.
+  </li>
   
   <li>
     <b>Accessibility. </b>The project takes into account accessibility features and screen readers, so it contains useful information for people with low vision.
