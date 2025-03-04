@@ -1,0 +1,121 @@
+.services-card {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+  min-height: 310px;
+  padding: 50px;
+  border: var(--border);
+  border-radius: var(--border-radius-large);
+  box-shadow: var(--shadow);
+
+  @include desktop {
+    padding: 35px;
+  }
+
+  @include tablet {
+    max-width: 600px;
+    width: 100%;
+    margin-inline: auto;
+  }
+
+  @include mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  &--light-gray {
+    background-color: var(--color-light-gray);
+  }
+
+  &--green {
+    background-color: var(--color-accent);
+  }
+
+  &--dark {
+    background-color: var(--color-dark-gray);
+
+    .services-card__link {
+      color: var(--color-light);
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @include mobile {
+      display: contents;
+    }
+  }
+
+  &__title {
+    @include mobile {
+      grid-column: -1 / 1;
+    }
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    width: fit-content;
+    font-size: 20px;
+    line-height: 28px;
+
+    @include hover {
+      color: var(--color-dark-gray-alt);
+    }
+
+    @include mobile {
+      align-self: flex-end;
+    }
+
+    &-icon-wrapper {
+      @include square(41px);
+
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+
+      &--dark {
+        background-color: var(--color-dark);
+
+        svg {
+          color: var(--color-accent);
+        }
+      }
+
+      &--white {
+        background-color: var(--color-light);
+
+        svg {
+          color: var(--color-dark);
+        }
+      }
+    }
+
+    &-label {
+      @include mobile {
+        @include visually-hidden;
+      }
+    }
+  }
+
+  &__image {
+    @include desktop {
+      max-width: 150px;
+    }
+
+    @include tablet {
+      max-width: 210px;
+    }
+
+    @include mobile {
+      max-width: 165px;
+      align-self: flex-end;
+      margin-left: auto;
+    }
+  }
+}

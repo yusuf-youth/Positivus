@@ -1,0 +1,45 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 30px;
+  padding-right: 60px;
+  background-color: var(--color-light-gray);
+  border-radius: var(--border-radius-large);
+
+  @include mobile {
+    padding-right: 0;
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+    padding: 60px;
+
+    @include mobile {
+      row-gap: 20px;
+      padding: 50px;
+    }
+  }
+
+  &__description {
+    max-width: 500px;
+  }
+
+  &__button {
+    max-width: fit-content;
+  }
+
+  &__image {
+    margin-block: -23px;
+
+    @include tablet {
+      max-width: 200px;
+    }
+
+    @include mobile {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+@import 
+    "fonts.scss", 
+    "normalize.scss",
+    "mixins.scss",
+    "variables.scss",
+    "globals.scss",
+    "media.scss",
+    "utils.scss";
+
+@import "blocks/button.scss", 
+        "blocks/burger-button",
+        "blocks/section",
+        "blocks/puddle",
+        'blocks/services-card',
+        'blocks/process-accordion',
+        'blocks/team-card',
+        'blocks/pagination',
+        'blocks/radios',
+        'blocks/radio',
+        'blocks/field',
+        'blocks/subscription-form';
+
+@import 'sections/header',
+        'sections/hero',
+        'sections/services',
+        'sections/banner',
+        'sections/studies',
+        'sections/process',
+        'sections/team',
+        'sections/testimonials',
+        'sections/contact',
+        'sections/footer',
+        'sections/mobile-overlay';

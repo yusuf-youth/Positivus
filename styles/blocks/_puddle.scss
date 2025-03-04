@@ -1,0 +1,13 @@
+.puddle {
+  display: inline-block;
+  padding: 4px 7px;
+  border-radius: var(--border-radius-small);
+
+  &--green {
+    background-color: var(--color-accent);
+  }
+
+  &--white {
+    background-color: var(--color-light);
+  }
+}

@@ -1,0 +1,22 @@
+.burger-button {
+  @include reset-button;
+  @include square(40px);
+  @include center-content;
+
+  @include mobile {
+    width: 30px;
+  }
+
+  &__line {
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-dark);
+
+    box-shadow: 0 -10px 0 0 var(--color-dark), 0 10px 0 0 var(--color-dark);
+
+    @include mobile {
+      box-shadow: 0 -8px 0 0 var(--color-dark), 0 8px 0 0 var(--color-dark);
+    }
+  }
+}

@@ -1,0 +1,91 @@
+.hero {
+  &__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 30px;
+    margin-bottom: var(--section-padding-y);
+    padding-bottom: 35px;
+
+    @include mobile {
+      flex-direction: column;
+      margin-bottom: 60px;
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    max-width: 530px;
+
+    @include desktop {
+      row-gap: 25px;
+    }
+
+    @include mobile {
+      display: contents;
+    }
+  }
+
+  &__image {
+    @include desktop {
+      max-width: 500px;
+    }
+
+    @include tablet {
+      max-width: 350px;
+    }
+
+    @include mobile {
+      order: -1;
+      align-self: center;
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__title {
+    @include mobile {
+      order: -2;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__description {
+    @include mobile {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__button {
+    max-width: fit-content;
+
+    @include mobile-s {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+
+  .sponsors-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+
+    @include tablet {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      row-gap: 20px;
+    }
+
+    &__item {
+      display: flex;
+      justify-content: center;
+    }
+
+    &__image {
+      filter: grayscale(1);
+    }
+  }
+}

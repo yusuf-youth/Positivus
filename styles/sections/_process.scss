@@ -1,0 +1,42 @@
+.process {
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    list-style: none;
+    counter-reset: custom-counter;
+
+    @include tablet {
+      row-gap: 25px;
+    }
+
+    @include mobile {
+      row-gap: 20px;
+    }
+  }
+
+  &__item {
+    counter-increment: custom-counter;
+
+    &:nth-child(-n + 9) {
+      .process-accordion__title::before {
+        content: "0" counter(custom-counter);
+      }
+    }
+  }
+
+  .process-accordion__title {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+
+    @include mobile {
+      column-gap: 30px;
+    }
+
+    &::before {
+      content: counter(custom-counter);
+      font-size: 2em;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+
+  &__button {
+    @include reset-button;
+    @include square(24px);
+
+    display: inline-flex;
+
+    &.is-current {
+      svg {
+        color: var(--color-accent);
+      }
+    }
+
+    svg {
+      color: var(--color-light);
+    }
+  }
+}

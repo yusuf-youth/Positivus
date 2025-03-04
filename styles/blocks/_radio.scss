@@ -1,0 +1,29 @@
+.radio {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 14px;
+
+  &__input:not(:checked) + &__emulator::after {
+    opacity: 0;
+  }
+
+  &__emulator {
+    @include square(28px);
+
+    position: relative;
+    background-color: var(--color-light);
+    border: var(--border);
+    border-radius: 50%;
+
+    &::after {
+      @include square(60%);
+      @include absolute-centered;
+
+      content: "";
+      position: absolute;
+      background-color: var(--color-accent);
+      border-radius: inherit;
+      transition-duration: var(--transition-duration);
+    }
+  }
+}

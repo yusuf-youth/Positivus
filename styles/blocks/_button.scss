@@ -1,0 +1,35 @@
+.button {
+  @include reset-button;
+  @include center-content;
+
+  display: inline-flex;
+  align-items: center;
+  height: var(--button-height);
+  padding-inline: 35px;
+  font-size: 20px;
+  color: var(--color-light);
+  background-color: var(--color-dark-gray);
+  border-radius: var(--border-radius-medium);
+
+  @include hover {
+    color: var(--color-dark);
+    background-color: var(--color-accent);
+    border: var(--border);
+  }
+
+  &--transparent {
+    color: var(--color-dark);
+    background-color: transparent;
+    border: var(--border);
+  }
+
+  &--accent {
+    color: var(--color-dark);
+    background-color: var(--color-accent);
+
+    @include hover {
+      color: var(--color-light);
+      background-color: var(--color-dark-gray);
+    }
+  }
+}

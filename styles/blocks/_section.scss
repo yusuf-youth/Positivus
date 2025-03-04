@@ -1,0 +1,38 @@
+.section {
+  overflow-x: hidden;
+  padding-block: var(--section-padding-y);
+
+  @include desktop {
+    --section-padding-y: 50px;
+  }
+
+  @include tablet {
+    --section-padding-y: 40px;
+  }
+
+  @include mobile {
+    --section-padding-y: 30px;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 80px;
+
+    @include tablet {
+      margin-bottom: 60px;
+    }
+
+    @include mobile {
+      text-align: center;
+      flex-direction: column;
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+  }
+
+  &__description {
+    max-width: 580px;
+  }
+}

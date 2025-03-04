@@ -1,0 +1,16 @@
+.services {
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+
+    @include desktop {
+      gap: 30px;
+    }
+
+    @include tablet {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

@@ -1,0 +1,76 @@
+.process-accordion {
+  --isAccordionToggleON: 0;
+
+  padding: 60px 40px;
+  background-color: var(--color-light-gray);
+  border: var(--border);
+  border-radius: var(--border-radius-large);
+  box-shadow: var(--shadow);
+
+  @include desktop {
+    padding: 50px 30px;
+  }
+
+  @include mobile {
+    padding: 30px;
+    border-radius: 50px;
+  }
+
+  &[open] {
+    --isAccordionToggleON: 90deg;
+
+    background-color: var(--color-accent);
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    column-gap: 30px;
+  }
+
+  &__title {
+    @include fluid-text(18, 30);
+  }
+
+  &__toggle {
+    @include square(58px);
+
+    flex-shrink: 0;
+    position: relative;
+    display: inline-flex;
+    border: var(--border);
+    border-radius: 50%;
+
+    @include mobile {
+      width: 30px;
+    }
+
+    &::before,
+    &::after {
+      @include absolute-centered;
+
+      content: "";
+      width: 50%;
+      height: 10%;
+      background-color: var(--color-dark);
+    }
+
+    &::after {
+      transition-duration: var(--transition-duration);
+      rotate: var(--isAccordionToggleON);
+    }
+  }
+
+  &__body {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: var(--border);
+
+    @include desktop {
+      margin-top: 25px;
+      padding-top: 25px;
+    }
+  }
+}
