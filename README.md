@@ -13,7 +13,7 @@ The project is structured with following folders:
     <b>images. </b><i>images</i> folder contains subfolders of images that are used in specific sections of the website.
   </li>
   <li>
-    <b>styles. </b> <i>styles</i> folder contains subfolders such as blocks for independent components, and sections for sections, and other folders for setting up the project.
+    <b>styles. </b> <i>styles</i> folder contains subfolders such as <i>blocks</i> for independent components, and <i>sections</i> for sections, and other files for setting up the project.
   </li>
 </ul>
 
