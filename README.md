@@ -2,7 +2,8 @@ Hi there! This is a repository of one of websites built from Figma template. <a 
 
 <h3>Structure</h3>
 The project structured with following folders: 
-- **fonts.** fonts folder contains fonts that are used in the project.
-- **icons.** icons folder contains icons that are used in the project.
-- **images.** images folder contains subfolders of images that are used in specific sections of the website.
-- **styles.** styles folder contains subfolders such as blocks for independent components, and sections for sections, and other folders for setting up the project.
+<ul>
+  <li>
+    <b>fonts.</b>fonts folder contains fonts that are used in the project.
+  </li>
+</ul>
