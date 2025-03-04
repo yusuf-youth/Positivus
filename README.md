@@ -40,5 +40,6 @@ The project has several features:
   <li>
     <b>Semantics. </b>The project adheres to semantics, so it uses <code>&lt;articles&gt;</code> for cards, <code>&lt;dialog&gt;</code> for mobile menu, <code>&lt;details&gt;</code> for spoilers, <code>&lt;address&gt;</code> for address information, and so on.
   </li>
-  
 </ul>
+
+To wrap it up, the project is built in latest standards such as BEM and SCSS, its maintainable due to BEM, accessible for screen readers, and written according to semantics for better SEO.  
