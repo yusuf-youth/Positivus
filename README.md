@@ -37,7 +37,7 @@ The project has several features:
   </li>
 
   <li>
-    <b>Mobile First. </b>The project in some places is stylized using mobile first approach.
+    <b>Mobile First. </b>The project in some places is stylized using mobile first approach, using the best approach for certain situations.
   </li>
   
   <li>
