@@ -1,9 +1,7 @@
 <img src="https://www.spinutech.com/Content/cms/images/blog/Benefits-of-a-Digital-Marketing-Agency.jpg" width="500" />
 <br />
 
-<i>Hi there! This is a website I built from Figma template for demonstration to potential employers.</i> 
-
-This website is about providing digital marketing agency such as SEO, PPC, social media marketing, and content creation to businesses to grow and succeed online. <a href="https://yusuf-youth.github.io/Positivus/">Website</a>, <a href="https://www.figma.com/design/rYuygYWV3mQRhBIidLdHPT/Positivus?node-id=25-145&p=f&t=EPz27KiT88ynDBX5-0" target="_blank">Template</a>. <br />
+This website is about providing digital marketing agency such as SEO, PPC, social media marketing, and content creation to businesses to grow and succeed online. Built from a Figma template, this project aims to demonstrate my ability to convert design concepts into functional, accessible web pages. The project is optimized for performance and usability, with a focus on user-centric features like semantic HTML, mobile-first design, and accessibility. <a href="https://yusuf-youth.github.io/Positivus/">Website</a>, <a href="https://www.figma.com/design/rYuygYWV3mQRhBIidLdHPT/Positivus?node-id=25-145&p=f&t=EPz27KiT88ynDBX5-0" target="_blank">Template</a>. <br />
 
 <h2>Structure</h2>
 The project is structured with following folders: 
