@@ -30,6 +30,10 @@ The project has several features:
   <li>
     <b>Semantics. </b>The project adheres to semantics, so it uses <code>&lt;articles&gt;</code> for cards, <code>&lt;dialog&gt;</code> for mobile menu, <code>&lt;details&gt;</code> for spoilers, <code>&lt;address&gt;</code> for address information, and so on.
   </li>
+
+  <li>
+<b>CSS variables. </b>The project uses css variables throughout styles ensuring maintainability, reusability, and consistency of the code.
+</li>
   
   <li>
     <b>BEM. </b>The project is structured and built according to BEM methodology, so it's easy to maintain. 
