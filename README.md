@@ -24,7 +24,11 @@ The project is structured with following folders:
 The project has several features: 
 <ul>
   <li>
-    <b>Global styles. </b>The project has <i>_global.scss</i> for global styles, <i>_normalize.scss</i> for resetting default styles, <i>_mixins.scss</i> and <i>_media.scss</i> for comfortable styling and others.
+    <b>Global Styles. </b>The project has <i>_global.scss</i> for global styles, <i>_normalize.scss</i> for resetting default styles, <i>_mixins.scss</i> and <i>_media.scss</i> for comfortable styling and others.
+  </li>
+  
+  <li>
+    <b>CSS Property Grouping. </b> CSS code is organized in a consistent and logical order to improve readability, maintainability, and ease of debugging.
   </li>
   
   <li>
@@ -32,8 +36,8 @@ The project has several features:
   </li>
 
   <li>
-<b>CSS variables. </b>The project uses css variables throughout styles ensuring maintainability, reusability, and consistency of the code.
-</li>
+    <b>CSS Variables. </b>The project uses css variables throughout styles ensuring maintainability, reusability, and consistency of the code.
+  </li>
   
   <li>
     <b>BEM. </b>The project is structured and built according to BEM methodology, so it's easy to maintain. 
