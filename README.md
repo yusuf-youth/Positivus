@@ -40,7 +40,7 @@ The project has several features:
   </li>
   
   <li>
-    <b>BEM. </b>The project is structured and built according to BEM methodology, so it's easy to maintain. 
+    <b>BEM. </b>The project follows the BEM methodology for structuring SCSS, where each component is broken down into <i>blocks</i>, <i>elements</i>, and <i>modifiers</i>. This approach ensures that the code is modular, scalable, and easy to maintain.
   </li>
   
   <li>
