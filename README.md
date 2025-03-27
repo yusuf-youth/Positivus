@@ -24,6 +24,9 @@ The project is structured with following folders:
 The project has several features: 
 <ul>
   <li>
+    <b>Semantics. </b>The project adheres to semantics, so it uses <code>&lt;articles&gt;</code> for cards, <code>&lt;dialog&gt;</code> for mobile menu, <code>&lt;details&gt;</code> for accordions, <code>&lt;address&gt;</code> for address information, and so on.
+  </li>
+  <li>
     <b>BEM. </b>The project follows the BEM methodology for structuring SCSS, where each component is broken down into <i>blocks</i>, <i>elements</i>, and <i>modifiers</i>. This approach ensures that the code is modular, scalable, and easy to maintain.
   </li>
   <li>
@@ -34,9 +37,6 @@ The project has several features:
     <b>CSS Property Grouping. </b> CSS properties are organized in a consistent and logical order to improve readability, maintainability, and ease of debugging.
   </li>
   
-  <li>
-    <b>Semantics. </b>The project adheres to semantics, so it uses <code>&lt;articles&gt;</code> for cards, <code>&lt;dialog&gt;</code> for mobile menu, <code>&lt;details&gt;</code> for accordions, <code>&lt;address&gt;</code> for address information, and so on.
-  </li>
 
   <li>
     <b>CSS Variables. </b>The project uses css variables throughout styles ensuring maintainability, reusability, and consistency of the code.
