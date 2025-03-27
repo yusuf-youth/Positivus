@@ -28,7 +28,7 @@ The project has several features:
   </li>
   
   <li>
-    <b>CSS Property Grouping. </b> CSS code is organized in a consistent and logical order to improve readability, maintainability, and ease of debugging.
+    <b>CSS Property Grouping. </b> CSS properties are organized in a consistent and logical order to improve readability, maintainability, and ease of debugging.
   </li>
   
   <li>
