@@ -48,6 +48,10 @@ The project has several features:
   </li>
 
   <li>
+    <b>Fluid Typography. </b> Headings adapt to different screen sizes without needing media queries, ensuring text looks great on all devices.
+  </li>
+
+  <li>
     <b>Mobile First. </b>The project in some places is stylized using mobile first approach, using the best approach for certain situations.
   </li>
   
