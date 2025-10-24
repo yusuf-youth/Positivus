@@ -1,5 +1,5 @@
 <img src="images/app.png" width="600" />
-<br />
+
 
 This website is about providing digital marketing agency such as SEO, PPC, social media marketing, and content creation to businesses to grow and succeed online. Built using a Figma template, this project showcases my ability to transform UI/UX designs into high-quality, functional websites. <a href="https://yusuf-youth.github.io/Positivus/">Website</a>, <a href="https://www.figma.com/design/rYuygYWV3mQRhBIidLdHPT/Positivus?node-id=25-145&p=f&t=EPz27KiT88ynDBX5-0" target="_blank">Template</a>. <br />
 
